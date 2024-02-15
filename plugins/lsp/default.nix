@@ -90,6 +90,7 @@ in {
         "terraformls"
         "texlab"
         "tsserver"
+        "typos-lsp"
         "typst-lsp"
         "vala-ls"
         "vls"

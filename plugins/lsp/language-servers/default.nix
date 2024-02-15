@@ -597,6 +597,11 @@ with lib; let
       package = pkgs.nodePackages.typescript-language-server;
     }
     {
+      name = "typos-lsp";
+      description = "Source code spell checker for Visual Studio Code and LSP clients";
+      package = pkgs.typos-lsp;
+    }
+    {
       name = "typst-lsp";
       serverName = "typst_lsp";
       description = "typst-lsp for typst";
